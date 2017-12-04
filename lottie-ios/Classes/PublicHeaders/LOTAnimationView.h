@@ -177,4 +177,6 @@ typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 @property (nonatomic) LOTViewContentMode contentMode;
 #endif
 
+- (CALayer * _Nullable)layerForKey:(NSString * _Nonnull)keyname;
+
 @end
